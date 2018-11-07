@@ -1,0 +1,10 @@
+
+
+
+
+
+{"nome":"Balcao","texto":"Teste","hora":"19:12:37","cor":"#000000"}
+{"nome":"Cliente","texto":"5345345345345","hora":"19:32:14","cor":"#000000"}
+{"nome":"Cliente","texto":"3523423423","hora":"19:32:55","cor":"#000000"}
+{"nome":"Cliente","texto":"345345345345","hora":"19:37:26","cor":"#000000"}
+{"nome":"Cliente","texto":"hfgsjkdfgbskjdfs","hora":"19:40:56","cor":"#000000"}

@@ -1,0 +1,16 @@
+
+{"nome":"Drogasil","texto":"Teste","hora":"15:16:12","cor":"#FF0000"}
+{"nome":"Drogasil","texto":"opa","hora":"15:16:28","cor":"#FF0000"}
+{"nome":"Drogasil","texto":"e ai","hora":"15:16:56","cor":"#FF0000"}
+{"nome":"Drogasil","texto":"rtwerwerwe","hora":"15:19:57","cor":"#FF0000"}
+{"nome":"Drogasil","texto":"","hora":"15:19:58","cor":"#FF0000"}
+{"nome":"Drogasil","texto":"64456456456","hora":"15:20:05","cor":"#FF0000"}
+{"nome":"Drogaraia","texto":"qwe3445345345","hora":"15:20:35","cor":"#0000CD"}
+{"nome":"Drogaraia","texto":"35345345345","hora":"15:41:23","cor":"#0000CD"}
+{"nome":"Drogasil","texto":"erwerwer","hora":"15:49:10","cor":"#FF0000"}
+{"nome":"Drogasil","texto":"234234234234","hora":"15:49:19","cor":"#FF0000"}
+{"nome":"Drogasil","texto":"34234234234","hora":"15:50:25","cor":"#FF0000"}
+{"nome":"Drogaraia","texto":"5345345345","hora":"15:52:56","cor":"#0000CD"}
+{"nome":"Drogasil","texto":"234234234234","hora":"15:53:13","cor":"#FF0000"}
+{"nome":"Drogasil","texto":"qweeqweqwe","hora":"16:15:03","cor":"#FF0000"}
+{"nome":"Drogasil","texto":"werwerwer","hora":"16:15:11","cor":"#FF0000"}
