@@ -57,7 +57,7 @@
 
                 <label class="text" for="cpf">digite o <b>nº do pedido</b> ou <b>CPF</b></label>
                 <input type="hidden" name="action" value="2" />
-                <input class="input"type="text" name="texto" id="texto">
+                <input class="input"type="tel" name="texto" id="texto">
 
                 <button class="btn-primary" id="button">Consultar</button>
 
