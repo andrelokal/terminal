@@ -45,7 +45,7 @@ if(!isset($_SESSION['nome']))
         }
 
         $( function() {
-
+            $('#texto').focus();
             $("#button").click(function(e){
                 e.preventDefault();
                 sendMessage();
@@ -56,8 +56,9 @@ if(!isset($_SESSION['nome']))
     </script>
 </head>
 
-<body class="and">
+<body>
 <form method="post" id="form">
+    <p style="font-size: 10px"><?php echo 'LOJA: '.$_SESSION['senha']; ?></p>
     <div class="container">
 
         <div class="logo">
@@ -79,7 +80,6 @@ if(!isset($_SESSION['nome']))
             </div>
 
         </div>
-
     </div>
 </form>
 </body>
