@@ -1,3 +1,13 @@
+<?php
+
+include_once('../util/config.php');
+
+if(!isset($_SESSION['nome']))
+    header('Location: '.PATH.'index.php');
+
+
+
+?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -22,7 +32,12 @@
                     //ChargerBox( true );
                     window.location.href = "loading.php"
 
-                }});
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    alert('a sessão expirou faça o login');
+                    window.location.href = "../index.php"
+                }
+            });
 
             $('#texto').val('');
             $('#texto').focus();
@@ -41,7 +56,7 @@
     </script>
 </head>
 
-<body>
+<body class="and">
 <form method="post" id="form">
     <div class="container">
 
@@ -57,7 +72,7 @@
 
                 <label class="text" for="cpf">digite o <b>nº do pedido</b> ou <b>CPF</b></label>
                 <input type="hidden" name="action" value="2" />
-                <input class="input"type="tel" name="texto" id="texto">
+                <input class="input"type="text" name="texto" id="texto">
 
                 <button class="btn-primary" id="button">Consultar</button>
 

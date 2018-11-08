@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="css/style.css">
     <script>
-        setInterval(function(){ window.location.href = "finish.php" }, 2000);
+        setInterval(function(){ window.location.href = "finish.php" }, 1000);
     </script>
 </head>
 
