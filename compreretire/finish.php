@@ -16,7 +16,7 @@
             });
 
         });
-        setInterval(function(){ window.location.href = "index.php" }, 3000);
+        setInterval(function(){ window.location.href = "index.php" }, 4000);
     </script>
 </head>
 
