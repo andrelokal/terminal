@@ -224,7 +224,8 @@ include_once('model/Emogi.php');
         var last_hour2 = 0;
         var last_msg = '';
         var last_nome = '';
-        var audio = new Audio('util/soundNotify.mp3');
+        //var audio = new Audio('util/soundNotify.mp3');
+        var audio = new Audio('util/highscore.mp3');
         
         function ChargerBox( gotodown ){
             
@@ -363,6 +364,7 @@ include_once('model/Emogi.php');
     </script>
 </head>
 <body onload="ChargerBox(); crono();">
+<p style="font-size: 10px"><?php echo 'LOJA: '.$_SESSION['senha']; ?></p>
 <div id="content" ></div>
     <form method="post" id="form">
         <div>
@@ -390,4 +392,3 @@ include_once('model/Emogi.php');
     </form>
 </body>
 </html>
-
