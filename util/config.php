@@ -1,5 +1,6 @@
 <?php
 if(!isset($_SESSION)){
+    @session_cache_expire(180000);
     @session_start();    
 }
 
@@ -10,8 +11,8 @@ date_default_timezone_set('America/Sao_Paulo');
 // --- //
 
 //definicao dos caminhos e rotas do projeto
-define("PATH_ROOT", @($_SERVER['DOCUMENT_ROOT']."/worktime/chat/"));
-define("PATH", @($_SERVER['HTTP_REFERER']."/worktime/chat/"));
+define("PATH_ROOT", @($_SERVER['DOCUMENT_ROOT']."/chat/"));
+define("PATH", @($_SERVER['HTTP_REFERER']."/chat/"));
 define("HOST", @($_SERVER['SERVER_ADDR']));
 // ----- //
 
